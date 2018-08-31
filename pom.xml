@@ -6,15 +6,17 @@
 	<groupId>com.study</groupId>
 	<artifactId>com-study-springcloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>com-study-springcloud</name>
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
-		<module>consumer</module>
-		<module>provider00</module>
 		<module>server</module>
+		<module>provider00</module>
+		<module>consumer</module>
+		<module>consumer-ribbon</module>
+		<module>consumer-feign</module>
 	</modules>
 
 </project>
